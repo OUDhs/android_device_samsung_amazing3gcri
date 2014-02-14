@@ -4,6 +4,7 @@ USE_CAMERA_STUB := true
 -include vendor/samsung/amazing3gcri/BoardConfigVendor.mk
 
 TARGET_ARCH := arm
+TARGET_CPU_VARIANT := generic
 TARGET_NO_BOOTLOADER := true
 TARGET_BOARD_PLATFORM := unknown
 TARGET_CPU_ABI := armeabi-v7a
